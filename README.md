@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @YuntingZh
+- 👋 Hi, I’m @Yunting
 - 👀 I’m interested in coding, designing, and cooking!  
 - 🌱 I’m currently learning C# and python
 - 💞️ I’m looking to collaborate on XR games and softwares
