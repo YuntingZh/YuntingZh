@@ -1,8 +1,7 @@
-- 👋 Hi, I’m @Yunting
-- 👀 I’m interested in coding, designing, and cooking!  
-- 🌱 I’m currently learning C# and python
-- 💞️ I’m looking to collaborate on XR games and softwares
-- 📫 You can reach me @ cucyzx@gmail.com
+😀 Hi, I am Yunting Zhao. 
+📄 Interactive Media & Computer Science
+❤️ XR developing | 2D & 3D design | UI/UX design
+👉 Portfolio website: yuntingzhao.com
 
 <!---
 new acoount!
