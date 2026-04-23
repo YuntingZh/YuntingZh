@@ -27,17 +27,12 @@
 <p align="center">
 
 <!-- MEDIUM:START -->
-<table border="0" cellpadding="0" cellspacing="0">
-<tr>
-<td width="140" valign="top">
-<a href="https://www.designsystemscollective.com/designing-for-security-the-user-the-product-and-the-adversary-you-cant-see-d0ea497ceeaf?source=rss-b2aa9f029725------2"><img src="https://cdn-images-1.medium.com/max/1024/1*6m2GJzhnQaF7uBCXrGBi6A.png" width="130" /></a>
-</td>
-<td valign="middle" style="padding-left:20px">
+<a href="https://www.designsystemscollective.com/designing-for-security-the-user-the-product-and-the-adversary-you-cant-see-d0ea497ceeaf?source=rss-b2aa9f029725------2"><img src="https://cdn-images-1.medium.com/max/1024/1*6m2GJzhnQaF7uBCXrGBi6A.png" width="560" /></a>
+
+<br/>
+
 <a href="https://www.designsystemscollective.com/designing-for-security-the-user-the-product-and-the-adversary-you-cant-see-d0ea497ceeaf?source=rss-b2aa9f029725------2"><b>Designing for Security: the User, the Product, and the Adversary You Can’t See</b></a><br/>
 <sub>April 20, 2026</sub>
-</td>
-</tr>
-</table>
 <!-- MEDIUM:END -->
 
 </p>
