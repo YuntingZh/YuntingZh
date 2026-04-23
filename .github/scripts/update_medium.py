@@ -13,38 +13,42 @@ if not feed.entries:
     print("No Medium entries found — skipping update")
     exit(0)
 
-entry = feed.entries[0]
-title = entry.title
-link  = entry.link
-
-# Extract thumbnail: try media fields first, then parse content HTML
-thumb = None
-if hasattr(entry, "media_thumbnail") and entry.media_thumbnail:
-    thumb = entry.media_thumbnail[0]["url"]
-elif hasattr(entry, "media_content") and entry.media_content:
-    thumb = entry.media_content[0].get("url")
-else:
+def get_thumbnail(entry):
+    if hasattr(entry, "media_thumbnail") and entry.media_thumbnail:
+        return entry.media_thumbnail[0]["url"]
+    if hasattr(entry, "media_content") and entry.media_content:
+        return entry.media_content[0].get("url")
     html = (entry.get("content") or [{}])[0].get("value", "") or entry.get("summary", "")
     m = re.search(r'<img[^>]+src="([^"]+)"', html)
-    if m:
-        thumb = m.group(1)
+    return m.group(1) if m else None
 
-try:
-    dt = datetime(*entry.published_parsed[:6])
-    date_str = dt.strftime("%B %d, %Y")
-except Exception:
-    date_str = ""
+def format_date(entry):
+    try:
+        return datetime(*entry.published_parsed[:6]).strftime("%b %d, %Y")
+    except Exception:
+        return ""
 
-if thumb:
-    card = f"""\
-<a href="{link}"><img src="{thumb}" width="560" style="display:block;margin:0 auto;" /></a>
+def cell(entry):
+    thumb = get_thumbnail(entry)
+    title = entry.title
+    link  = entry.link
+    date  = format_date(entry)
+    img   = f'<a href="{link}"><img src="{thumb}" width="260" /></a><br/><br/>' if thumb else ""
+    return f"""\
+<td width="50%" align="center" valign="top">
+{img}<a href="{link}"><b>{title}</b></a><br/>
+<sub>{date}</sub>
+</td>"""
 
-<br/>
+entries = feed.entries[:2]
+cells   = "\n".join(cell(e) for e in entries)
 
-<a href="{link}"><b>{title}</b></a><br/>
-<sub>{date_str}</sub>"""
-else:
-    card = f'<a href="{link}"><b>{title}</b></a><br/><sub>{date_str}</sub>'
+card = f"""\
+<table width="100%" border="0" cellpadding="16" cellspacing="0">
+<tr>
+{cells}
+</tr>
+</table>"""
 
 with open(README) as f:
     content = f.read()
@@ -60,4 +64,4 @@ updated   = re.sub(
 with open(README, "w") as f:
     f.write(updated)
 
-print(f"Updated README with: {title}")
+print(f"Updated README with {len(entries)} articles")

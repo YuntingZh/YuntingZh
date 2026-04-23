@@ -27,12 +27,16 @@
 <p align="center">
 
 <!-- MEDIUM:START -->
-<a href="https://www.designsystemscollective.com/designing-for-security-the-user-the-product-and-the-adversary-you-cant-see-d0ea497ceeaf?source=rss-b2aa9f029725------2"><img src="https://cdn-images-1.medium.com/max/1024/1*6m2GJzhnQaF7uBCXrGBi6A.png" width="560" /></a>
-
-<br/>
-
-<a href="https://www.designsystemscollective.com/designing-for-security-the-user-the-product-and-the-adversary-you-cant-see-d0ea497ceeaf?source=rss-b2aa9f029725------2"><b>Designing for Security: the User, the Product, and the Adversary You Can’t See</b></a><br/>
-<sub>April 20, 2026</sub>
+<table width="100%" border="0" cellpadding="16" cellspacing="0">
+<tr>
+<td width="50%" align="center" valign="top">
+<a href="https://www.designsystemscollective.com/designing-for-security-the-user-the-product-and-the-adversary-you-cant-see-d0ea497ceeaf?source=rss-b2aa9f029725------2"><img src="https://cdn-images-1.medium.com/max/1024/1*6m2GJzhnQaF7uBCXrGBi6A.png" width="260" /></a><br/><br/><a href="https://www.designsystemscollective.com/designing-for-security-the-user-the-product-and-the-adversary-you-cant-see-d0ea497ceeaf?source=rss-b2aa9f029725------2"><b>Designing for Security: the User, the Product, and the Adversary You Can’t See</b></a><br/>
+<sub>Apr 20, 2026</sub>
+</td>
+<td width="50%" align="center" valign="top">
+</td>
+</tr>
+</table>
 <!-- MEDIUM:END -->
 
 </p>
