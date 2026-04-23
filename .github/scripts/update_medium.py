@@ -37,25 +37,20 @@ except Exception:
 
 if thumb:
     card = f"""\
-<table border="0" cellpadding="0" cellspacing="0">
-<tr>
-<td width="140" valign="top">
-<a href="{link}"><img src="{thumb}" width="130" /></a>
-</td>
-<td valign="middle" style="padding-left:20px">
+<a href="{link}"><img src="{thumb}" width="560" style="display:block;margin:0 auto;" /></a>
+
+<br/>
+
 <a href="{link}"><b>{title}</b></a><br/>
-<sub>{date_str}</sub>
-</td>
-</tr>
-</table>"""
+<sub>{date_str}</sub>"""
 else:
     card = f'<a href="{link}"><b>{title}</b></a><br/><sub>{date_str}</sub>'
 
 with open(README) as f:
     content = f.read()
 
-new_block  = f"{START}\n{card}\n{END}"
-updated    = re.sub(
+new_block = f"{START}\n{card}\n{END}"
+updated   = re.sub(
     re.escape(START) + r".*?" + re.escape(END),
     new_block,
     content,
