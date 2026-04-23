@@ -34,6 +34,8 @@
 <sub>Apr 20, 2026</sub>
 </td>
 <td width="50%" align="center" valign="top">
+<a href="https://medium.com/@cucyzx/i-just-saw-a-robot-stitch-a-corn-kernel-d293421b274e?source=rss-b2aa9f029725------2"><img src="https://cdn-images-1.medium.com/max/1024/1*wJ8PYSRwQjeWUurkanyy4g.png" width="260" /></a><br/><br/><a href="https://medium.com/@cucyzx/i-just-saw-a-robot-stitch-a-corn-kernel-d293421b274e?source=rss-b2aa9f029725------2"><b>I Just Saw a Robot Stitch a Corn Kernel</b></a><br/>
+<sub>Apr 12, 2026</sub>
 </td>
 </tr>
 </table>
