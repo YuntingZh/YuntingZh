@@ -8,12 +8,6 @@
 
 <br>
 
-<p align="center">
-  <a href="https://medium.com/@cucyzx">Writing on Medium →</a>
-</p>
-
-<br>
-
 ---
 
 <p align="center">
@@ -24,11 +18,16 @@
 
 <br>
 
+<p align="center"><sub>LATEST WRITING</sub></p>
+
+<br>
+
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=YuntingZh&show_icons=true&hide_border=true&title_color=0a0a0a&text_color=666666&icon_color=0a0a0a&bg_color=fafafa&hide=stars"
-    height="150"
-  />
+
+<!-- MEDIUM:START -->
+<i>Loading latest article…</i>
+<!-- MEDIUM:END -->
+
 </p>
 
 <br>
